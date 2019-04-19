@@ -1,0 +1,42 @@
+body{
+  background: red;
+  display: flex;
+  display: grid;
+  grid-gap: 5px;
+  grid-template-areas: "header header"
+                        "nav nav"
+                        "main aside"
+                        "footer footer";
+  grid-template-columns: 70%;
+  grid-template-rows: 70%;
+}
+
+header {
+  background: green;
+  grid-area: header;
+}
+
+nav {
+  background: green;
+  grid-area: nav;
+}
+
+.ul #button {
+  background: blue;
+  grid-area: nav;
+}
+
+main {
+  background: green;
+  grid-area: main;
+}
+
+aside {
+  background: green;
+  grid-area: aside;
+}
+
+footer {
+  background: green;
+  grid-area: footer;
+}
