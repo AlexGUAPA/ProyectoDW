@@ -43,7 +43,7 @@ img.onload = function() {
 }
 
 function draw() {
-    ctx.clearRect(0, 0, clearX, clearY); // clear the canvas
+    ctx.clearRect(0, 0, clearX, clearY);
     
     if (imgW <= CanvasXSize) {
         if (x > CanvasXSize) {
