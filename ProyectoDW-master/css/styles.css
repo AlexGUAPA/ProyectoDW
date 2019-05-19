@@ -1,26 +1,27 @@
 * {
        box-sizing: border-box;
        }
-   body {
+
+   .boody {
    background-color: black;
    margin: 0px 50px 50px;
 }
 
    /* Each item in the grid contains numbers */
-   .item {
+   .it {
    display: flex;
    justify-content: center;
    align-items: center;
    border: 5px solid gray;
    border-radius: 3px;
-   font-size: 2em;
+   font-size: 1em;
    font-family: sans-serif;
    font-weight: bold;
    background-color:white;
 }
 
 
-   .container {
+   .cont {
    display: grid;
    grid-template-columns: 3fr 5fr 3fr;
    grid-template-rows: auto auto auto;
@@ -40,11 +41,11 @@
 }
 
 .content button,.ads button,.footer button,.articles button{
-  background-color: black; 
-  border: 1px solid blue; 
-  color: white; 
-  padding: 10px 24px; 
-  cursor: pointer; 
+  background-color: black;
+  border: 1px solid blue;
+  color: white;
+  padding: 10px 24px;
+  cursor: pointer;
   float: left;
 }
 .content button:hover,.ads button:hover,.footer button:hover,.articles button:hover{
@@ -60,4 +61,3 @@
 .ads {
    grid-area: left;
 }
-
